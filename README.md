@@ -192,7 +192,8 @@ Then restart your RTSP server.
 rtsp_server/
 ├── CMakeLists.txt
 ├── Makefile
-├── rtsp_server.c
+├── src/
+│   └── rtsp_server.c
 ├── install_dependencies.sh
 ├── LICENSE
 └── README.md
